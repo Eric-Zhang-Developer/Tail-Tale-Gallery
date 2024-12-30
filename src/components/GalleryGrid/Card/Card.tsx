@@ -1,12 +1,9 @@
-import {type cardProp} from '../GalleryGrid'
-
-
-function Card({src} : cardProp){
+function Card({ src }: { src: string }) {
   return (
     <>
       <img src={src}></img>
     </>
-  )
+  );
 }
 
-export default Card
+export default Card;
