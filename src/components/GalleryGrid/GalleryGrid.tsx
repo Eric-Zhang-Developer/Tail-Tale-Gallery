@@ -12,6 +12,7 @@ function GalleryGrid() {
     { src: "./public/cat-umbella-anime.png" },
     { src: "./public/sushi-cat-anime.jpeg" },
     { src: "./public/watercolor-husky.png" },
+    { src: "./public/bluejay-pixar.jpeg"}
   ];
 
   return (
