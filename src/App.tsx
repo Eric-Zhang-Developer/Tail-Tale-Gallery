@@ -3,10 +3,11 @@ import GalleryGrid from "./components/GalleryGrid/GalleryGrid"
 function App() {
 
   return (
-    <>
-      <h1 className="text-3xl font-bold">Tale Tale Gallery</h1>
+    /* Styles for body */
+    <div className="p-2">
+      <h1 className="text-3xl font-bold text-center m-4">Tale Tale Gallery</h1>
       <GalleryGrid></GalleryGrid>
-    </>
+    </div>
   )
 }
 

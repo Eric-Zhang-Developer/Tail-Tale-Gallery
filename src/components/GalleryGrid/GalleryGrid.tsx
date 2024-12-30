@@ -15,11 +15,11 @@ function GalleryGrid() {
   ];
 
   return (
-    <>
+    <div className="grid grid-cols-2 gap-1">
       {cardData.map((card) => (
         <Card src={card.src} key={card.src}></Card>
       ))}
-    </>
+    </div>
   );
 }
 
