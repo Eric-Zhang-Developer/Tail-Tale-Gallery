@@ -1,7 +1,7 @@
 function Card({ src }: { src: string }) {
   return (
     <>
-      <img className="shadow-md" src={src}></img>
+      <img className="shadow-lg" src={src}></img>
     </>
   );
 }
